@@ -1,0 +1,191 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.line{
+    
+    margin: 35px 20px;
+   
+}
+li{
+    list-style: none;
+}
+.line a{
+    color: rgb(244, 241, 241);
+    text-decoration: none;
+    cursor: pointer;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.material{
+    display: flex;
+
+    
+}
+.content{
+    margin-left: 579px;
+    margin-top: 35px;
+}
+.topimage{
+    margin: -10px 10px;
+}
+.icon{
+    color: white;
+    margin-top:35px ;
+}
+.link:hover{
+    color: rgb(50, 201, 50);
+
+}
+.container-fluid{
+   background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -200px / 100% 700px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+   width: 100%;
+   height: 600px;
+   margin-top: -220px;
+
+   
+}
+.body{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: 100px 177px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border: 2px solid green;
+
+}
+.body span{
+    background: rgb(3, 3, 4);
+    width: 43px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 35px 130px;
+}
+
+.body img{
+    width: 273px;
+    height: 433px;
+    margin: 65px 14px;
+}
+.h h1{
+    color: white;
+    margin: 217px 530px;
+    font-size: 79px;
+    width: 805px;
+}
+.btn button{
+    position: absolute;
+    width: 211px;
+    height: 60px;
+    margin: -161px 580px;
+}
+.why h2 b{
+    font-size:3.5rem;
+   
+}
+.only{
+    width: 400px;
+    margin: 50px 500px;
+}
+
+.secondpagecont .pura{
+ display: flex;
+}
+.boxx{
+    margin:0px 50px;
+}
+.thirdpage{
+    background-image: linear-gradient(rgb(227, 14, 192), rgb(73, 67, 246));
+    width:100%;
+    height: 400px;
+    
+}
+.itsfree{
+    position: absolute;
+    margin: 161px 600px;
+    color: white;
+    font-size: 3rem;
+
+}
+.nocredit{
+    font-size: 3rem;
+    margin: 210px 400px;
+    color: white;
+    padding-left: 50px;
+    
+}
+.got{
+    margin: 50px 550px;
+}
+.it{
+    color: green;
+}
+.playlist{
+    border-bottom: 1px solid
+     var(--background-tinted-highlight,#d4d1d1);
+}
+.accordion{
+    margin-left: 200px;
+    width: 1000px;
+}
+.accordion:hover{
+    background-color: gray;
+}
+.accordion-item:hover{
+    background-color: rgb(250, 224, 107);
+}
+.last{
+    /* border-bottom: 1px solid
+    var(--background-tinted-highlight,#f1e9e9); */
+    width: 100%;
+    height: 500px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -200px / 100% 700px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+}
+.readyy{
+    position: absolute;
+    font-size: 5rem;
+    margin: 154px 353px;
+}
+.getspotifyfree{
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    margin: 300px 550px;
+    
+}
+.getspotifyfree:hover{
+    transform: scale(1.05);
+}
+.lastpage{
+    background-color: black;
+}
+.com{
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+
+li h5{
+    color: gray;
+}
+li p:hover{
+ color: green;
+ cursor: pointer;
+}
+
+
+    
+

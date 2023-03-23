@@ -1,0 +1,268 @@
+.signup{
+    margin-left: 400px;
+    width: 600px;
+}
+
+
+.signup img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 270px;
+} 
+.signup h1{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+.face{
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 40px;
+    margin-left: 100px;
+    background-color: #384F81;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s ease-in-out; */
+
+}
+.face:hover{
+   transform: scale(1.05);
+}
+
+
+.line{
+    margin-left: 120px;
+    width: 60%;
+    margin-top: 25px;
+    
+}
+.or{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -28px;
+    text-align: center;
+    border: none;
+    background-color:white;
+    width: 30px;
+}
+.face span{
+    margin-left: 50px;
+    color: white;
+    /* transition: all 2s ease-in-out; */
+
+    
+}
+.image img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -301px;
+    margin-top: 4px;
+    cursor: pointer;
+
+} 
+.face:hover{
+    cursor: pointer;
+    
+}
+.google:hover{
+    transform: scale(1.05);
+}
+.google button{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 40px;
+    margin-left: 100px;
+    background-color: white;
+    border: 2px solid black;
+    opacity: 0.8;
+}
+.google button span{
+    margin-left: 50px;
+    color: rgb(10, 1, 1);
+    opacity: 0.8;
+}
+.google img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-left: -310px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.google button:hover{
+    cursor: pointer;
+    transition:  all  2s ease-in-out;
+}
+.sign{
+    font-size: 25px;
+    margin-left: 90px;
+}
+.first{
+    margin-left: 100px;
+   
+}
+.first label{
+    font-size: 20px;
+}
+.first input{
+    width:375px;
+    height: 50px;
+    border-radius: 5px;
+}
+.second{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.second label{
+    font-size: 20px;
+}
+.second input{
+    width:375px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.third{
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.third label{
+    font-size: 20px;
+}
+.third input{
+    width:375px;
+    border-radius: 5px;
+    height: 50px;
+}
+.forth{
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.forth label{
+    font-size: 20px;
+}
+.forth input{
+    width:375px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+.fifth{
+    position: relative;
+    width: 380px;
+    display: flex;
+    margin-left: 97px;
+}
+
+.phla select{
+    position: absolute;
+    width: 150px;
+    height: 43px;
+    border-radius: 5px;
+    top: 25px;
+
+
+}
+.phla label{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.dusra input{
+    width: 80px;
+    margin-left: 167px;
+    height: 43px;
+    border-radius: 5px;
+
+}
+
+.dusra label{
+    font-size: 15px;
+    margin-left: 168px;
+}
+
+
+.tisra input{
+    position: absolute;
+    width: 115px;
+    margin-left: 15px;
+    height: 43px;
+    border-radius: 5px;
+
+}
+.tisra label{
+    font-size: 15px;
+    margin-left: 14px;
+}
+.selectbirth{
+    margin-top: 30px;
+    margin-left: 98px;
+    line-height: 0.5px;
+
+}
+.six{
+    margin-left: 95px;
+    margin-top: 20px;
+}
+input[type=radio]:hover.male{
+    background-color: red;
+}
+
+.female{
+    margin-left: 25px;
+}
+.non{
+    margin-left: 25px;
+}
+.other{
+    margin-left: 25px;
+}
+.seventh{
+    margin-left: 95px;
+    margin-top: 20px;
+    
+}
+.seventh p{
+    display: inline;
+    margin-left: 10px;
+}
+.term{
+    font-size: 13px;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+.term a{
+    color: green;
+}
+.policy{
+    font-size: 13px;
+    margin-left: 95px;
+}
+.policy a{
+    color: green;
+}
+.btn-success{
+    margin-left: 215px;
+    width: 150px;
+    height: 50px;
+    
+}
+.have{
+    margin-left: 218px;
+    margin-top: 20px;
+}
+.have a{
+    color: green;
+}
+.haha{
+    margin-left: 15px;
+}

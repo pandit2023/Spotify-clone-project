@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.spotify {
+    display: flex;
+}
+
+nav {
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    font-family: 'ubuntu', 'sans-serif';
+}
+
+nav img {
+    padding: 0px 5px;
+}
+
+ul li {
+    padding: 10px 15px;
+    color: rgb(142, 139, 139);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li:hover {
+    color: white;
+}
+
+#home,
+#search,
+#library {
+    font-size: 30px;
+}
+
+body {
+
+    overflow-x: hidden;
+
+
+    background-color: rgb(26, 26, 26);
+}
+
+.create {
+    margin-top: 50px;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+    margin-left: 203px;
+    background-color: rgba(20, 18, 18, 0.744);
+
+}
+
+li #a,
+#b {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+
+
+}
+
+#a {
+    color: rgb(200, 196, 196);
+    margin-left: 200px;
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-top: 7px;
+
+
+}
+
+#b {
+    color: rgb(200, 196, 196);
+    border-radius: 100%;
+    padding-left: 5px;
+    padding-top: 7px;
+
+
+}
+
+.arrow {
+    display: flex;
+    margin-left: -150px;
+    margin-top: 20px;
+}
+
+.btun {
+    margin-top: -60px;
+    display: flex;
+    margin-left: 800px
+}
+
+.btun button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 8px 0px;
+}
+
+#sig {
+    background-color: rgb(40, 39, 39);
+    color: white;
+
+}
+
+
+
+.container h2 {
+    color: white;
+    margin-left: 250px;
+    margin-top: 114px;
+
+}
+
+.show {
+
+    color: white;
+    margin-left: 1234px;
+    margin-top: -20px;
+
+}
+
+.gridbox {
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: repeat(1fr);
+    gap: 10px;
+    margin-left: 220px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(35, 228, 51);
+    margin-left: 150px;
+    margin-top: -120px;
+    position: absolute;
+    display: none;
+
+}
+
+#ab {
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid transparent;
+    border-left: 15px solid black;
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+
+
+}
+
+.box1:hover .circle {
+    display: block;
+}
+
+.box1 {
+    animation: ease-in-out;
+    animation-duration: 2s;
+    width: 220px;
+    height: 310px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgba(131, 129, 129, 0.075);
+}
+.box1:hover{
+    transform: scale(1.05);
+}
+
+
+.box1 img {
+    border-radius: 7px;
+    width: 201px;
+    height: 219px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.box1 h3 {
+    text-align: center;
+    color: white;
+}
+
+.box1 p {
+    text-align: center;
+    color: rgb(165, 163, 163);
+}
+
+.gridbox2 {
+
+    display: grid;
+    grid-template-columns: repeat(5, 220px);
+    grid-template-rows: repeat(5, 220px);
+    gap: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.content h2 {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.content span {
+    margin-left: 1220px;
+    margin-top: -30px;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.footer {
+
+    background-image: linear-gradient(to bottom right, rgb(165, 11, 189), rgb(97, 173, 226));
+    width: 100%;
+    height: 80px;
+    margin-top: 1100px;
+    bottom: 0px;
+    position: fixed;
+
+}
+.f{
+    color: rgb(226, 221, 221);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.bton{
+    margin-left: 1200px;
+    margin-top: -30px;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    padding: 0px 5px;
+}
+
